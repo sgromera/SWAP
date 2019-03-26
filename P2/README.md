@@ -53,4 +53,5 @@ De izquierda a derecha vemos:
 Práctica realizada por:
 
   José Luis Rojano Ramírez
+  
   Sergio Romera Guzmán
