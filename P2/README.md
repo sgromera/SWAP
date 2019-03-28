@@ -2,6 +2,15 @@
 
 En esta práctica trataremos de hacer que las dos máquinas que creamos en la práctica 1 estén sincronizadas, de forma que uno de los equipos hará de equipo principal y el otro de secundario. El equipo secundario tratará de estar al día con los archivos del principal, comprobando regularmente los cambios producidos en el otro equipo.
 
+Vamos a hacer una compresión con tar y con ssh lo vamos a pasar a la segunda máquina
+*tar cvz - /var/www/html | ssh sgromera2@192.168.1.101 'cat > ~/tar.tgz'*
+
+![Compresión](https://raw.githubusercontent.com/sgromera/SWAP/master/P2/7_tar.png)
+
+Comprobamos en la segunda máquina que se ha creado el archivo comprimido
+
+![Comprobación](https://raw.githubusercontent.com/sgromera/SWAP/master/P2/8_tar.png)
+
 La herramienta que utilizaremos para la sincronización entre los equipos es **rsync**, que debemos instalar.
 
 *sudo apt install rsync*
