@@ -23,3 +23,9 @@ Vamos a probar a hacer ssh para conectar ambas máquinas. (La conexión con ssh 
 Comprobamos que se ha creado el archivo
 
 ![Comprobación ssh](https://raw.githubusercontent.com/sgromera/SWAP/master/P1/ssh_comprobacion.png)
+
+Prácticas realizadas por:
+
+José Luis Rojano Ramírez
+
+Sergio Romera Guzmán
