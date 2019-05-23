@@ -8,18 +8,18 @@ Lo primero que haremos será crear nuestra Base de datos e insertar unos datos y
 
 Creamos la base de datos e introducimos los datos
 
-[!Imagen1]()
+[!Imagen1](https://github.com/sgromera/SWAP/blob/master/P5/sql-data.png)
 
 Para poder replicar la base de datos podemos exportar los datos con *mysqldump*. Utilizamos el siguiente comando:
 
 *mysqldump contactos -u root -p > ./contactos.sql*
 
-[!Imagen2]()
+[!Imagen2](https://github.com/sgromera/SWAP/blob/master/P5/mysqldump.png)
 
 Para enviar el archivo entre máquinas, en este caso, usaremos *sftp*.
 
-[!Imagen3]()
+[!Imagen3](https://github.com/sgromera/SWAP/blob/master/P5/sftp.png)
 
 Ahora trataremos de replicar la base de datos creada en otra máquina que funcionará como máquina esclava. Primero creamos el usuario esclavo en la base de datos maestro.
 
-[!Imagen4]()
+[!Imagen4](https://github.com/sgromera/SWAP/blob/master/P5/crea_esclavo.png)
