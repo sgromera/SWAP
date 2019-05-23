@@ -45,5 +45,7 @@ Comprobamos en el esclavo:
 ![Imagen8](https://raw.githubusercontent.com/sgromera/SWAP/master/P5/cambios_esclavo.png)
 
 Prácticas realizadas por:
+
 José Luis Rojano Ramírez
+
 Sergio Romera Guzmán
